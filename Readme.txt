@@ -8,6 +8,6 @@ How to run: RERSargs.r <input.csv> <graph.png> <title> <xAxisTitle> <yAxisTitle>
 
 Example: 
 
-Rscript "/home/milto/Documents/ASTARTE/Scripts/WP6/RGraphs/RERSargs.r" "/home/milto/Documents/ASTARTE/ASTARTE_sample_data/level5/ERS-1/ERS-1_allHeight.csv"  "/home/milto/Documents/ASTARTE/ASTARTE_sample_data/level5/ERS-1/ERS-1.png" "Average Seasonal Backscattered Coefficient Values Between May 1992 and October 1994 using ERS-1 data" "Months" "Average Backscattered Coefficient (DB)" 900 400
+Rscript RERSargs.r Sentinel-1_Desc_Vh_heights_all_2016.csvDB.csvfiltered.csv Sentinel-1_Desc_Vh_heights_all_2016.csvDB.csvfiltered.csv.png "Average Seasonal Backscattered Coefficient Values of 2016 using Sentinel-1 data" "Months" "Average Backscattered Coefficient (DB)" 900 400
 
 
